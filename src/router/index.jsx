@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 import Index from '../pages';
 import Home from '@/pages/Home';
 import ArticleDetail from '@/pages/ArticleDetail';
@@ -31,13 +31,13 @@ const routes = [
 class SelfRouter extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           {routes.map((route, index) => (
             <Route path={route.path} key={index} exact component={route.component}></Route>
           ))}
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
