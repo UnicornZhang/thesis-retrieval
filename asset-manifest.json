@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/thesis-retrieval/static/css/main.b87e9c13.chunk.css",
-    "main.js": "/thesis-retrieval/static/js/main.6472be15.chunk.js",
-    "main.js.map": "/thesis-retrieval/static/js/main.6472be15.chunk.js.map",
+    "main.css": "/thesis-retrieval/static/css/main.850d50b6.chunk.css",
+    "main.js": "/thesis-retrieval/static/js/main.cb74f3aa.chunk.js",
+    "main.js.map": "/thesis-retrieval/static/js/main.cb74f3aa.chunk.js.map",
     "runtime-main.js": "/thesis-retrieval/static/js/runtime-main.e6519581.js",
     "runtime-main.js.map": "/thesis-retrieval/static/js/runtime-main.e6519581.js.map",
     "static/css/2.8b9164f1.chunk.css": "/thesis-retrieval/static/css/2.8b9164f1.chunk.css",
-    "static/js/2.22d51377.chunk.js": "/thesis-retrieval/static/js/2.22d51377.chunk.js",
-    "static/js/2.22d51377.chunk.js.map": "/thesis-retrieval/static/js/2.22d51377.chunk.js.map",
+    "static/js/2.e7aeea80.chunk.js": "/thesis-retrieval/static/js/2.e7aeea80.chunk.js",
+    "static/js/2.e7aeea80.chunk.js.map": "/thesis-retrieval/static/js/2.e7aeea80.chunk.js.map",
     "index.html": "/thesis-retrieval/index.html",
-    "precache-manifest.3b9fe8e6a33718cde18f8b354da1da10.js": "/thesis-retrieval/precache-manifest.3b9fe8e6a33718cde18f8b354da1da10.js",
+    "precache-manifest.31ea21e5f9cf7e191b7167b89cc22778.js": "/thesis-retrieval/precache-manifest.31ea21e5f9cf7e191b7167b89cc22778.js",
     "service-worker.js": "/thesis-retrieval/service-worker.js",
     "static/css/2.8b9164f1.chunk.css.map": "/thesis-retrieval/static/css/2.8b9164f1.chunk.css.map",
-    "static/css/main.b87e9c13.chunk.css.map": "/thesis-retrieval/static/css/main.b87e9c13.chunk.css.map",
-    "static/js/2.22d51377.chunk.js.LICENSE.txt": "/thesis-retrieval/static/js/2.22d51377.chunk.js.LICENSE.txt",
+    "static/css/main.850d50b6.chunk.css.map": "/thesis-retrieval/static/css/main.850d50b6.chunk.css.map",
+    "static/js/2.e7aeea80.chunk.js.LICENSE.txt": "/thesis-retrieval/static/js/2.e7aeea80.chunk.js.LICENSE.txt",
     "static/media/index.less": "/thesis-retrieval/static/media/bg.4d5995f4.jpeg",
     "static/media/img.jpg": "/thesis-retrieval/static/media/img.7cff46f4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e6519581.js",
     "static/css/2.8b9164f1.chunk.css",
-    "static/js/2.22d51377.chunk.js",
-    "static/css/main.b87e9c13.chunk.css",
-    "static/js/main.6472be15.chunk.js"
+    "static/js/2.e7aeea80.chunk.js",
+    "static/css/main.850d50b6.chunk.css",
+    "static/js/main.cb74f3aa.chunk.js"
   ]
 }
