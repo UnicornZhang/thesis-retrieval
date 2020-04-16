@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/thesis-retrieval/static/css/main.b87e9c13.chunk.css",
+    "main.js": "/thesis-retrieval/static/js/main.6364c16a.chunk.js",
+    "main.js.map": "/thesis-retrieval/static/js/main.6364c16a.chunk.js.map",
+    "runtime-main.js": "/thesis-retrieval/static/js/runtime-main.e6519581.js",
+    "runtime-main.js.map": "/thesis-retrieval/static/js/runtime-main.e6519581.js.map",
+    "static/css/2.8b9164f1.chunk.css": "/thesis-retrieval/static/css/2.8b9164f1.chunk.css",
+    "static/js/2.144b6d7c.chunk.js": "/thesis-retrieval/static/js/2.144b6d7c.chunk.js",
+    "static/js/2.144b6d7c.chunk.js.map": "/thesis-retrieval/static/js/2.144b6d7c.chunk.js.map",
+    "index.html": "/thesis-retrieval/index.html",
+    "precache-manifest.e0554f7bbc0a4ca1ad0f72b1fe93579a.js": "/thesis-retrieval/precache-manifest.e0554f7bbc0a4ca1ad0f72b1fe93579a.js",
+    "service-worker.js": "/thesis-retrieval/service-worker.js",
+    "static/css/2.8b9164f1.chunk.css.map": "/thesis-retrieval/static/css/2.8b9164f1.chunk.css.map",
+    "static/css/main.b87e9c13.chunk.css.map": "/thesis-retrieval/static/css/main.b87e9c13.chunk.css.map",
+    "static/js/2.144b6d7c.chunk.js.LICENSE.txt": "/thesis-retrieval/static/js/2.144b6d7c.chunk.js.LICENSE.txt",
+    "static/media/index.less": "/thesis-retrieval/static/media/bg.4d5995f4.jpeg",
+    "static/media/img.jpg": "/thesis-retrieval/static/media/img.7cff46f4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6519581.js",
+    "static/css/2.8b9164f1.chunk.css",
+    "static/js/2.144b6d7c.chunk.js",
+    "static/css/main.b87e9c13.chunk.css",
+    "static/js/main.6364c16a.chunk.js"
+  ]
+}
