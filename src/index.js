@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 import enUS from 'antd/es/locale/en_US';
 import { ConfigProvider } from 'antd';
 
+// 设置登陆状态
+window.$isLogin = false;
+
 ReactDOM.render(
   <ConfigProvider locale={enUS}>
     <React.StrictMode>

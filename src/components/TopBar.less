@@ -7,7 +7,7 @@
     right: 0;
     display: flex;
     justify-content: center;
-    z-index: 10000;
+    z-index: 1;
 
     .content {
         width: 1280px;
@@ -18,6 +18,32 @@
 
         .contentLeft {
             display: flex;
+            align-items: center;
+
+            .logo {
+                width: 120px;
+                height: auto;
+                cursor: pointer;
+            }
+
+            button {
+                font-size: 20px;
+                margin: 0 21px;
+                font-weight: 500;
+                position: relative;
+                bottom: 4px;
+            }
+
+            :global(.ant-input-search) {
+                border-radius: 20px;
+            }
+        }
+
+        .contentRight {
+            button {
+                margin-left: 16px;
+                border-radius: 6px;
+            }
         }
     }
 

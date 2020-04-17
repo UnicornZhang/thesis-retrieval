@@ -1,9 +1,15 @@
+/**
+ * 项目的路由配置文件
+ * react router
+ */
+
 import React, { Component } from 'react';
 import { Switch, Route, HashRouter } from 'react-router-dom';
 import Index from '../pages';
 import Home from '@/pages/Home';
 import ArticleDetail from '@/pages/ArticleDetail';
 import Author from '@/pages/Author';
+import Setting from '@/pages/Setting';
 
 const routes = [
   {
@@ -19,12 +25,20 @@ const routes = [
     component: ArticleDetail,
   },
   {
-    path: '/author',
+    path: '/author/:id',
     component: Author,
   },
   {
-    path: '/users',
+    path: '/user',
     component: Author,
+  },
+  {
+    path: '/setting',
+    component: Setting,
+  },
+  {
+    path: '/result',
+    component: Home,
   },
 ];
 

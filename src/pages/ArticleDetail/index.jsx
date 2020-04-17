@@ -10,7 +10,7 @@ class ArticleDetail extends Component {
   constructor() {
     super();
     this.state = {
-      detail: detail,
+      detail: detail, //文章详情
     };
   }
   render() {
@@ -28,26 +28,31 @@ class ArticleDetail extends Component {
               <Col>
                 <div
                   className={styles.authorName}
-                  onClick={() => this.props.history.push('/author')}
+                  onClick={() => this.props.history.push('/author/' + detail.author.id)}
                 >
                   {detail.author.name}
                 </div>
                 <div className={styles.authorInfo}>
                   <span>{detail.create_time}</span>
-                  <span>字数{detail.length}</span>
-                  <span>阅读{detail.readCount}</span>
+                  <span>words:{detail.length}</span>
+                  <span>reads:{detail.readCount}</span>
                 </div>
               </Col>
             </Row>
             <div className={styles.detailContent}>{detail.content}</div>
           </div>
           <div className={styles.recommend}>
-            <div className={styles.header}>推荐阅读</div>
+            <div className={styles.header}>Recommended Reading</div>
             {detail.recommends &&
-              detail.recommends.map(recommend => (
+              detail.recommends.map((recommend, index) => (
                 <div>
-                  <div className={styles.recommendTitle}>{recommend.title}</div>
-                  <div className={styles.recommendNum}>阅读{recommend.readCount}</div>
+                  <div
+                    className={styles.recommendTitle}
+                    onClick={() => this.props.history.push(`/detail/${index}`)}
+                  >
+                    {recommend.title}
+                  </div>
+                  <div className={styles.recommendNum}>reads:{recommend.readCount}</div>
                 </div>
               ))}
           </div>

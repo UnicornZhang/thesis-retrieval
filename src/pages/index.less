@@ -49,5 +49,57 @@
         }
     }
 
+    .recommands {
+        position: fixed;
+        bottom: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
+        >img {
+            width: 40px;
+            margin: 0 16px;
+            cursor: pointer;
+        }
+
+        >img:last-child {
+            transform: rotate(180deg);
+        }
+
+        .recommandList {
+            display: flex;
+            flex-direction: row;
+            width: 1400px;
+            overflow: scroll;
+            justify-content: space-between;
+            overflow-y: hidden;
+            overflow-x: hidden;
+
+            .recommand {
+                margin-right: 16px;
+                position: relative;
+                cursor: pointer;
+            }
+
+            img {
+                width: 186px;
+                border-radius: 6px;
+            }
+
+            p {
+                width: 100%;
+                color: #fff;
+                height: 36px;
+                background-color: #000;
+                position: absolute;
+                top: 0;
+                opacity: 0.6;
+                line-height: 36px;
+                padding: 0 10px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
 }
